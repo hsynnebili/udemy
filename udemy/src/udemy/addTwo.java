@@ -1,24 +1,21 @@
 package udemy;
 
+//test case below (dont change):
 
+class addTwo {
 
+	int addTwo_Cal(int x, int y) {
 
-	
-	//test case below (dont change):
+		return x + y;
 
+	}
 
-class Main {
-  static int addTwo(int x,int y){
-	
-  
-		return x+y;
+	// test case below (dont change):
+	public static void main(String[] args) {
 
-  }
-	//test case below (dont change):
-	public static void main(String[] args){
-	   Main obj=new Main();
-	int addTwo=obj.addTwo(3,4);
-		System.out.println(addTwo(3,4)); //should be 7
+		addTwo obj = new addTwo();
+
+		System.out.println(obj.addTwo_Cal(3, 4)); // should be 7
+		System.out.println(obj.addTwo_Cal(5, 6)); // should be 11
 	}
 }
-

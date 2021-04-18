@@ -4,7 +4,7 @@ public class Deneme1 {
 	static class Main {
 	    String name="John";
 	    int roll_no=2;
-		private int rool_no;
+		int rool_no;
 	    
 	  public static void main(String[] args) {
 	    
